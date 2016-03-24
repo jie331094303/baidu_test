@@ -1,0 +1,51 @@
+body{
+	background-color: #eee;
+}
+
+#team{
+	background-color: white;
+	margin: 1px #999;
+	width: 200px;
+	padding: 20px;
+	border:#999 solid 1px;
+	position: absolute;
+    top:20px;
+    left: 20px;	
+}
+
+#member{
+	background-color: white;
+	width: 120px;
+	padding: 20px;
+    border:#999 solid 1px;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+}
+#introduce{
+	border:#999 solid 1px;
+	padding: 20px;
+	margin-left: 275px;
+	margin-right: 195px;
+	margin-top: 20px;
+
+
+}
+.photograph{
+	display: block;
+	margin: 0 auto;
+}
+#pho_team{
+	float: left;
+}
+
+#team_name{
+	position: absolute;
+	left:120px;
+	top: 7px;
+}
