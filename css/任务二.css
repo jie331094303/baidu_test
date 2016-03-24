@@ -1,0 +1,57 @@
+@charset "utf-8";
+#ul01{
+	text-align: right;
+	background-color: #3F3D3D;
+	height: 40px;
+	
+}
+h3{
+	color: gray;
+}
+.one{
+	color: gray;
+	font-size: 13px;
+}
+.two{
+	padding: 12px;
+	margin: 8px;
+	background-color: #FFFFFF
+}
+body{
+	background-color: #D6D5D5;
+}
+.photograph{
+	width: 120px; height:50; 
+}
+.three{
+	margin: 7px;
+	padding: 8px;
+	border: solid 1px gray;
+	width: 120px; height:50; 
+}
+.four{
+	text-align: center;
+}
+#table01{
+	background-color: gray;
+
+}
+#table06{
+	background-color: #CDCCCC;
+}
+.five{
+     color: white;
+}
+from{
+	text-align: center;
+	line-height: 2px;
+}
+.seven{
+	text-align: center;
+}
+#footer{
+	background: black;
+	height: 80px;
+	color: white;
+	text-align: center;
+}
