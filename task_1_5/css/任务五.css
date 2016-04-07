@@ -69,12 +69,11 @@ body{
      color: white;
 }
 .from{
-	margin: 1px;
 	width: 30%;
 	float: right;
 	position: absolute;
-	top: 57px;
-	right: 0px;
+	top: 51px;
+	right: -3px;
 	padding: 10px;
 }
 .seven{
@@ -113,7 +112,7 @@ body{
 }
 #fromp{
 	padding: 3px;
-	margin-top: 3px;
+	margin-top:1px;
 	right: 10px;
 }
 .input_message{
