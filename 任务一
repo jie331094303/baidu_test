@@ -7,13 +7,18 @@
 </head>
  <body>
 
- <div id="ul01">
- <a href="http://www.baidu.com">导航链接一</a>
- <a href="http://www.qq.com">导航链接二</a>
- <a href="http://www.taobao.com">导航链接三</a>
- <a href="http://www.tmall.com">导航链接四</a>
+ <div id="header">
+  <div id="ul01">
+   <ul id="list">
+   <li><a href="http://www.baidu.com">导航链接一</a></li>
+   <li><a href="http://www.qq.com">导航链接二</a></li>
+   <li><a href="http://www.taobao.com">导航链接三</a></li>
+   <li><a href="http://www.tmall.com">导航链接四</a></li>
+   </ul>
+  </div>
  </div>
  
+ <div class="main">
  <div class="two"><h2>文章一级标签</h2>
  <h3>文章二级标签</h3>
  <p class="one">文章作者 文章发表时间</p>
@@ -38,20 +43,22 @@
     <li>列表项目二</li>
     <li>列表项目三</li>
 </ul>
+</div>
 
-</div>
-<div class="two"><h2>图片</h2>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-<div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
-</div>
+ <div class="two"><h2>图片</h2>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="three"><p class="four">好看的图片</p><img class="photograph" src="images/11.png" alt="图片" /></div>
+   <div class="clear"></div>
+  </div>
+
 <div class="two"><h1>最后一篇文章的一级标题</h1>
 <p class="one">文章作者 文章发表时间</p>
 <ol>
@@ -60,7 +67,7 @@
 	<li>排名3</li>
 </ol>
 <p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格，你们不用写html时候不需要加</p>
-<table border="1" width="1280">
+<table border="1" width="95%">
    <tr id="table01">
    	<td class="five">表头</td>
    	<td class="five">表头</td>
@@ -92,41 +99,64 @@
    	<td></td>
    </tr>
    </table>
+ </div>
 </div>
 
-<div class="two">
-<h1>这里以后是一个侧边栏，这是侧栏的标题</h1>
-<from>
-	<div class="seven">请输入邮箱地址：
-	<input type="text" name="邮箱地址" />
-    <p>邮箱地址请按要求格式输入</p>
-	请输入密码：
-	<input class="six" type="text" name="密码" />
-	<br />
-	请重复输入密码：
-	<input class="six" type="text" name="确认密码" />
-	</div>
-	<p>密码请为6-16位英文数字</p>
-	<p>性别<input type="radio" name="sex" value="male" />男
-	<input type="radio" name="sex" value="famale" />女
-	<br />
-	城市：<select name="city" >
-		   <option value="北京">北京</option>
-		   <option value="上海">上海</option>
-		   <option value="广州">广州</option>
-          </select>
-    <br />      
-    爱好：<input type="checkbox" name="运动" />运动
-          <input type="checkbox" name="艺术" />艺术
-          <input type="checkbox" name="科学" />科学
-   <br />
-   个人描述：<textarea rows="7" cols="80">
-   这是一个多行输入框，输入您的个人描述。
-   </textarea>
-   <br />
-   <input type="button" value="确认提交" width="60" />
-   </p>
-</from>
+<div class="from">
+  <div class="two">
+    <p id="footerP">这里以后是一个侧边栏，这是侧栏的标题</p>
+      <from>
+	      <div>
+	      <div class="input_message">请输入邮箱地址</div>
+	      <input class="bot" type="text" name="邮箱地址" />
+          <div class="demand">邮箱地址请按要求格式输入</div>
+          </div>
+          
+          <div>
+	      <div class="input_message">请输入密码</div>
+	      <input class="bot" type="text" name="密码" />
+	      </div>
+          
+          <div>
+	      <div class="input_message">请重复输入密码</div>
+	      <input class="bot" type="text" name="确认密码" />	
+	      </div>
+	      <div class="demand">密码请为6-16位英文数字</div>
+         
+	      <div>
+	      <div class="input_messages">性别</div>
+	      <input type="radio" name="sex" value="male" id="man" />男
+	      <input type="radio" name="sex" value="famale" id="woman" />女
+	      </div>
+	      
+          <div>
+	      <div class="input_messages">城市</div>
+	      <select name="city">
+		         <option value="北京">北京</option>
+		         <option value="上海">上海</option>
+		         <option value="广州">广州</option>
+                </select>
+          </div>  
+
+         <div>
+         <div class="input_messages">爱好</div>
+         <input type="checkbox" name="运动" />运动
+         <input type="checkbox" name="艺术" />艺术
+         <input type="checkbox" name="科学" />科学
+         </div>
+         
+         <div>
+         <div class="input_messages" id="descript">个人描述</div>
+         <textarea>这是一个多行输入框，输入您的个人描述         
+         </textarea>
+         </div>
+         
+         <input id="footerq"type="button" value="确认提交" />
+
+       </from>
+   </div>
+</div>
+
 <p id="footer">版权所有©</p>
 </div>
 </body>
